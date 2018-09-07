@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p><a href="/sshloger">Back sshloger</a></p>
+
+<div style='overflow: scroll; width: auto; height: 300px;'>
+    <pre th:text="${postLog}"></pre>
+</div>
+
+<div style='overflow: scroll; width: auto; height: 300px;'>
+    <pre th:text="${allLog}"></pre>
+</div>
+
+<!--
+Пример обработки массива i - итератор, list - итерируемый массив
+<div>
+    <option th:each="i : ${list}">
+        <p th:text="${ i }"></p>
+</option>
+</div>
+-->
+
+</body>
+</html>

@@ -1,2 +1,2 @@
 # ssh-loger
-ssh-loger for mango
+Take log from server

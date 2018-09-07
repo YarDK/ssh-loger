@@ -1,0 +1,7 @@
+subdomain - domen
+crmUserIds
+ crmKey -
+ crmLogin=meta@ingru.ru
+
+ http://redmine.mango.local/issues/149647 - заявка со звонком в амо срм (нет факта звонка, но пост запрос есть)
+
